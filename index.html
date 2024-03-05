@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" href="./styles.css" />
+  <title>The Notting Hill Bookshop</title>
+  
+</head>
+
+<body>
+  <h1>Welcome!</h1>
+  
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top px-5" style="background-color: #F37913; box-shadow: 0 4px 2px rgba(0, 0, 0, 0.3);">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">The Notting Hill Bookshop!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#cards">New Arrival!</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Genre
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#action">Action</a></li>
+              <li><a class="dropdown-item" href="#">Romance</a></li>
+              <li><a class="dropdown-item" href="#">Fantasy</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Special Edition</a></li>
+            </ul>  
+          </li>
+          <button class="btn btn-outline-light ms-2" type="button"><a href=cart.html>Cart</a></button>
+
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- carousel -->
+
+  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.fullybookedonline.com/media/scandiweb/slider/f/p/fps0226-0303p.png" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.fullybookedonline.com/media/scandiweb/slider/b/l/blog0219-0225p.png" class="d-block w-100"
+          alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.fullybookedonline.com/media/scandiweb/slider/r/t/rtb0226-0303p_1.png"
+          class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- space -->
+  <section class="text-light p-5" style="background-color: #F37913;" >
+    <div class="d-md-flex justify-content-between align-items-center">
+      <h2 class="h3 mb-3 mb-md-0">New Release!</h2>
+    </div>
+  </div>
+</section>
+
+  <!-- cards -->
+  <section class="p-5" id="cards">
+    <div class="row row-cols-1 row-cols-md-3 g-10 ">
+      <div class="col-md">
+        <div class="card" style="width: 18rem;">
+          <img src="https://devontrevarrowflaherty.files.wordpress.com/2023/02/pride-and-prejudice.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pride and Prejudice</h5>
+            <p class="card-text">Pride and Prejudice follows the turbulent relationship between Elizabeth Bennet, the
+              daughter of a country gentleman, and Fitzwilliam Darcy, a rich aristocratic landowner. They must overcome
+              the titular sins of pride and prejudice in order to fall in love and marry.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card" style="width: 18rem;">
+          <img src="https://store.orbit-books.co.uk/cdn/shop/products/9780356510514-original.jpg?v=1707153282"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jade City</h5>
+            <p class="card-text">In this World Fantasy Award-winning novel of magic and kungfu, four siblings battle
+              rival clans for honor and power in an Asia-inspired fantasy metropolis. Jade is the lifeblood of the
+              island of Kekon.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.orbitbooks.net/wp-content/uploads/2022/06/The-Last-Wish.webp" class="card-img-top"
+            alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Last Wish</h5>
+            <p class="card-text">The Last Wish details the life of Geralt of Rivia. Geralt is a witcher, someone who has
+              undergone an intensive process to become capable of fighting monsters. Each chapter alternates between a
+              story from Geralt's past and his present stay at the temple of Melitele.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-light p-5" style="background-color: #F37913;" id="action" >
+    <div class="d-md-flex justify-content-between align-items-center">
+      <h2 class="h3 mb-3 mb-md-0">Action</h2>
+    </div>
+  </div>
+</section>
+  <!-- action -->
+  <div class="container">
+    <div class="book">
+        <img src="https://nycmuseumgallery.org/wp-content/uploads/2023/05/Screen-Shot-2023-05-17-at-2.18.06-PM-e1684347529580.png" alt="Book Cover">
+        <h2>The Poppy War</h2>
+        <p>Author: R.F Kuang</p>
+        <p>Price: $18.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="book">
+        <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1565294729l/51057191.jpg" alt="Book Cover">
+        <h2>Jade Legacy</h2>
+        <p>Author: Fonda Lee</p>
+        <p>Price: $19.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="book">
+      <img src="https://upload.wikimedia.org/wikipedia/en/4/46/PercySeamonsters.gif" alt="Book Cover">
+      <h2>The Sea of Monsters</h2>
+      <p>Author: Rick Riordan</p>
+      <p>Price: $12.25</p>
+      <button>Add to Cart</button>
+  </div>
+  <div class="book">
+    <img src="https://upload.wikimedia.org/wikipedia/en/f/f4/Divergent_%28book%29_by_Veronica_Roth_US_Hardcover_2011.jpg" alt="Book Cover">
+    <h2>Divergent</h2>
+    <p>Author: Veronica Roth</p>
+    <p>Price: $10.00</p>
+    <button>Add to Cart</button>
+</div>
+
+  </div>
+
+    
+
+
+  <footer>
+    <p>&copy; 2024 The Notting Hill Bookshop</p>
+</footer>
+
+</body>
+
+</html>
